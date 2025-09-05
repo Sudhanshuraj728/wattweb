@@ -37,7 +37,7 @@ Based on comprehensive analysis of your trading backend codebase, the following 
 | Component | Monthly Cost (INR) | Description |
 |-----------|-------------------|-------------|
 | **Core Infrastructure** | | |
-| Production Server Cluster | 3,800 | Load-balanced EC2 instances optimized for ThreadPoolExecutor concurrency |
+| Production Server Cluster | 4,200 | Load-balanced EC2 instances optimized for ThreadPoolExecutor concurrency |
 | Security & Compliance | 1,200 | Firewall, DDoS protection, trading-specific security features |
 | SSL Certificate | 200 | Industry-standard SSL with 256-bit encryption |
 | **Database Services** | | |
@@ -45,22 +45,13 @@ Based on comprehensive analysis of your trading backend codebase, the following 
 | Redis Enterprise | 1,400 | High-performance Redis for LTP caching with 0.5 adjustment support |
 | **External Services** | | |
 | TradingView Integration | 1,300 | As per requirement |
-| Discord Webhook Management | 300 | Reliable delivery of trade notifications via Discord |
 | **Domain & DNS** | | |
 | api.oianalysis.tech (Backend) | 100 | Annual domain cost (1,200 INR/year) amortized monthly |
 | oianalysis.tech (Frontend) | 100 | Annual domain cost (1,200 INR/year) amortized monthly |
 | DNS Management | 200 | Premium DNS with low-latency routing |
-| **Monitoring & Operations** | | |
-| Performance Monitoring | 950 | Real-time monitoring of order execution latency |
-| Log Management | 850 | Enhanced logging with trade execution tracking |
-| Automated Backup Solution | 800 | Daily backups with 90-day retention policy |
 | **Trading Performance** | | |
-| Trade Execution Optimization | 650 | Systems to ensure <100ms order placement times |
-| Market Data Processing | 550 | Optimized handling of real-time market data |
-| **DevOps & Support** | | |
-| CI/CD Pipeline | 800 | Automated deployment with zero-downtime updates |
-| Technical Support | 500 | 12/5 technical support with 4-hour SLA |
-| **Total Monthly Cost** | **₹15,000** | |
+| Trade Execution Optimization | 500 | Systems to ensure <2s order placement times |
+| **Total Monthly Cost** | **₹11,000** | |
 
 ---
 
