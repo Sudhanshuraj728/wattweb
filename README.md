@@ -42,7 +42,7 @@ Based on comprehensive analysis of your trading backend codebase, the following 
 | SSL Certificate | 200 | Industry-standard SSL with 256-bit encryption |
 | **Database Services** | | |
 | MongoDB Atlas (M10) | 1,800 | Managed MongoDB for user credentials and trade history |
-| Redis Enterprise | 1,400 | High-performance Redis for LTP caching with 0.5 adjustment support |
+| Redis Enterprise | 1,400 | High-performance Redis for in memory cache |
 | **External Services** | | |
 | TradingView Integration | 1,300 | As per requirement |
 | **Domain & DNS** | | |
